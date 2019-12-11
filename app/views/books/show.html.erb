@@ -1,2 +1,25 @@
-<h1>Books#show</h1>
-<p>Find me in app/views/books/show.html.erb</p>
+<div id="books-show">
+	<h2>Ruby On Rails Power</h2>
+	<div class="books-show-left">
+		<%= image_tag('covers/ruby_on_rails_power.jpg') %>
+	</div>
+	<br>
+	<div class="books-show-right">
+		<h3>Books Info:</h3>
+		<ul>
+			<li><string>Category: </string> Ruby On Rails</li>
+			<li><string>Author: </string> Aneesha Bakharia</li>
+			<li><string>Publisher: </string> Vourse Technology PTR</li>
+			<li><string>Year: </string> 2007</li>
+			<li><string>ISBN: </string> 1598632167</li>
+			<li><string>Format: </string> Paperback</li>
+			<li><string>Pages: </string> 678</li>
+		</ul>
+		<%=link_to "Buy For $5.47", 'http://www.ebay.com/itm/Ruby-Rails-Power-Comprehensive-Guide-Power-/221475598855?pt=US_Nonfiction_Book&hash=item3390f97207', class:'btn btn-success',target:'_blank' %>
+	</div>
+	<div class="clearfix"></div>
+	<br>
+	<br>
+	<h4>Excerpt</h4>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum volutpat ipsum id dictum. Integer at fermentum ante. Quisque semper et nulla in condimentum. Mauris lacinia mi quis metus ornare tincidunt. Curabitur semper cursus magna, eget varius tellus viverra tincidunt. Suspendisse nisi magna, convallis et pellentesque in, efficitur ac quam. Curabitur blandit vestibulum vehicula. Fusce vitae facilisis dolor. Proin nec tristique magna, eu venenatis ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+</div>
